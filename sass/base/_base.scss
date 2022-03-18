@@ -1,0 +1,16 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+/* SETTING FONT IN BODY SO THAT ALL THE ELEMENT WILL INHERIT THE PROPERTIES */
+body {
+  box-sizing: border-box;
+}
