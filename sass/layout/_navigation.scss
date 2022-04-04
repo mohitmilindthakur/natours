@@ -16,6 +16,11 @@
         box-shadow: 0 1rem 3rem rgba($color-black, .1);
         text-align: center;
         cursor: pointer;
+
+        @include respond(tab-port) {
+            top: 4rem;
+            right: 4rem;
+        }
     }
 
     &__background {
@@ -28,6 +33,11 @@
         background-image: radial-gradient($color-primary-light, $color-primary-dark);
         z-index: 500;
         transition: all .5s linear;
+
+        @include respond(tab-port) {
+            top: 4.5rem;
+            right: 4.5rem;
+        }
     }
 
     &__nav {

@@ -25,4 +25,10 @@ html {
 /* SETTING FONT IN BODY SO THAT ALL THE ELEMENT WILL INHERIT THE PROPERTIES */
 body {
   box-sizing: border-box;
+  padding: 3rem;
+
+  @include respond(tab-port) {
+    padding: 0;
+  }
+
 }
